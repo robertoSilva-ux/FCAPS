@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambiente / variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Cache
+.cache/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Travas temporárias do LibreOffice / editores
+*.~lock.*#
+~$*
+*.tmp
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
